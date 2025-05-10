@@ -1,0 +1,22 @@
+#profileSection {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .content {
+      width: 600px;
+      height: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      border: solid 1px #3d444d;
+      padding: 20px;
+      border-radius: 6px;
+      img{
+        border-radius: 50%;
+        width: 100px;
+        height: auto;
+      }
+  }
+}
